@@ -1,0 +1,55 @@
+functions
+
+    Function is block of code performing a unit task.
+    Function has a name, return type and arguments.
+    Functions are predefinedand user-defimed.
+    Predefined functions are declared in header files and defined in library files.
+
+Example Program :-
+
+    #include<iostream> // declaration of cout and cin
+    usimg namespace std;
+    void main(){
+        void fun(); // funtion declaration
+        cout<<"you are in main";
+        fun(); // function call
+    }
+    void fun(){ // function definition
+        cout<<"you are in fun";
+    }
+
+Declation 
+
+    Function declaration is also known as Function prototype.
+    Functions need to be declared before use (just like variables).
+    Functions can be declared locally or globally.
+    ReturnType functionName(argumentList);
+    Functions definition is a block of code.
+
+Ways to define a function
+
+    Takes Nothing, Returns Nothing
+    Takes Something, Returns Nothing
+    Takes Nothing, Returns Something
+    Takes Something, Returns Something
+
+Formal and Actual arguments
+
+    #include<iostream>
+    using namespace std;
+    int sum(int, int);
+    void main(){
+        int a=5,b=6;
+        int s=sum(a,b); // a and b are actual arguments
+        cout<<"sum is "<<s;
+    }
+    int sum(int x, int y){  // x and y are formal arguments
+        return (x+y);
+    }
+
+Type of Formal arguments
+
+    Formal arguments can be three types :-
+        Ordinary variables of any type
+        Pointer variables
+        Reference variables

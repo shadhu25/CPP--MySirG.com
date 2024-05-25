@@ -1,0 +1,7 @@
+How Function overloading is resolved?
+    First, C++ tries to find an exact match. This is the case where the actual argument exactly matches the parameter type of one of the overloaded functions.
+    If no exact match is found, C++ tries to find a match through promotion
+        char, unsihned char, and short is promoted to an int.
+        float is promoted to double
+    
+    If no promotion is found , C++ tries to find a match through standard concersion

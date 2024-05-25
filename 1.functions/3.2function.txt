@@ -1,0 +1,38 @@
+Benefits of Functions
+    Easy to read
+    Easy to modify
+    Avoids rewriting of same code
+    Easy to utilization
+
+Functions save memory
+    Function in a program is to save memory space which becomes appreciable when a function is likely to be called many times.
+
+Functions are time consuming
+    However every tie a function is called, it takes lot of extra time in executing a series of instructions for tasks such as jumping to the functions, saving registers, pushing arguments into the stack and returning to the cslling function.
+    So, when function is small it is worthless to spend so much extra time in such tasks in cost of saving comparatively small space.
+
+Inline Function
+    To eliminate the cost of calls to small functions, C++ proposes a new featre called inline function.
+    An inline functionis a function that is expanded in line when it is invoked.
+    Compiler reolaces the function call with the corresponding function code.
+
+    Inline is a request
+        Inline is a request not a command.
+        The Benefit of speed of inline functions reduces as the function grows in size.
+        So the Compiler may ignore the request in some situations.
+        Few of them:-
+            Function containing loops, switch, goto.
+            Functions with recursion.
+            Containing static variable.
+
+Examle:-
+
+    #include<iostream>
+    inline void fun();
+    int main(){
+        cout<<"You are in main"<<endl;
+        fun();
+    }
+    void fun(){
+        cout<<"You are in fun"<<endl;
+    }
