@@ -1,0 +1,22 @@
+Type of  Variables
+
+    int x=5;
+
+    int *p;
+    p=&x;
+
+
+Reference Variable
+
+    int &y=x;
+    y++;
+    cout<<y;
+
+    output : 6
+
+    Reference means address.
+    Reference Variable is an internal pointer.
+    Declation of Reference Variable is preceded with & symbol (but do not read it as address of).
+    Reference Variable must be  initialized during declaration.
+    it can be initialized with already declared variables only.
+    Reference variables can not be updated.
