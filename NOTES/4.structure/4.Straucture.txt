@@ -1,0 +1,5 @@
+Structure
+    Structure is collection of dissimilar elements
+    Structure is a way to group variables
+    Structure is used to create data type
+    
