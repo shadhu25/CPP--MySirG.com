@@ -1,0 +1,14 @@
+Class and Structure
+    The only difference between structure and class is that
+        In Structure, the member of structure are by default public 
+        In Class, the members of class are by default private
+
+Technical jargons
+    Class is a description of an object
+    Object is an instance of a class
+
+Instance member variable
+    Attributes, data members, fields, properties
+Instance member functions
+    Methods, procedures, actions, operations, services
+    
