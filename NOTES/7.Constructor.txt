@@ -1,0 +1,20 @@
+Constructor
+    Constructor is a member function od a class.
+    The name of the constructor is same as the name of the class
+    It has no return type, so can't use return keyboard
+    It must be an instance member function, that is, it can never be static
+
+How to call Constructor?
+    Constructor is implicitly invoked when an object created
+    Constructor is used to solve problem of initialization
+
+Destructor
+    Destructor is an instance member function of a class
+    The name of the destructor is same as the name of a class but preceded by tiled(~) symbol
+    Destructors can never be static
+    Destructor has no return type
+    Destructor takes no argument(no overloading is possible)
+    It is invoked implicitly when object is going to destroy
+
+Why Destructor?
+    It should be defined to release resoures allocated to an object
